@@ -24,4 +24,4 @@ openssl rsa -in jira.pem -pubout -out jira.pub
  ```
 3. Add public key to jira service and private key to the authorization service
 
-4. Open authentication link and obtain access_token and access_secret_token. This we will further use to perform secure requests using Voice Assistant Skill.
+4. Open authentication link and obtain access_token and access_secret_token. Further we will these use to perform secure requests using Voice Assistant Skill.

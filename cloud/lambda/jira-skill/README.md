@@ -1,0 +1,1 @@
+to create a {PROJECT_TYPE} project {Example|PROJECT_NAME}  assign {tatualindvl|LEAD_NAME} as leader

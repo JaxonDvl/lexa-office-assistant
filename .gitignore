@@ -1,1 +1,7 @@
 cloud/lambda/jira-skill/jira.pem
+test/
+playground/node_modules
+deployable-lambda/node_modules
+cloud/lambda/jira-skill/node_modules
+
+jira-skill.zip

@@ -1,0 +1,10 @@
+{
+  "source": "./src",
+  "destination": "./docs",
+  "excludes": ["node_modules"],
+  "experimentalProposal": {
+    "classProperties": true,
+    "objectRestSpread": true
+  },
+  "plugins": []
+}
