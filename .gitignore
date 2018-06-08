@@ -1,7 +1,9 @@
 cloud/lambda/jira-skill/jira.pem
+cloud/lambda/jira-skill/access_data.json
+playground/jira.pem
+playground/access_data.json
 test/
 playground/node_modules
-deployable-lambda/node_modules
 cloud/lambda/jira-skill/node_modules
 
 jira-skill.zip
