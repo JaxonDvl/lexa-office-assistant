@@ -5,5 +5,9 @@ playground/access_data.json
 test/
 playground/node_modules
 cloud/lambda/jira-skill/node_modules
+cloud/lambda/ambient-skill/node_modules
+cloud/lambda/office-skill/node_modules
 
 jira-skill.zip
+ambient-skill.zip
+office-skill.zip

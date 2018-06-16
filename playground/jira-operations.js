@@ -46,5 +46,19 @@ module.exports = {
         } catch (err) {
             console.log(err);
         }
+    },
+    readIssue: async function (issueNumber) {
+        try {
+            let issueObject = {
+                "issueNumber": issueNumber
+            }
+            let response = await jira.findIssue(issueNumber);
+            return {
+                "summary":response["fields"]["issuetype"]["description"],
+                "description": response["fields"]["description"]
+            };
+        } catch (err) {
+            console.log(err);
+        }
     }
 }
